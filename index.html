@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a40158a500.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>   
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experiences">Experience</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+                <div class="header-text">
+                    
+                    <h1 >Hi, I'm <span>Shivya Jyoti</span></h1>
+                    <p class="sun">An engineering student, a tech enthusiast with a creative<br> outlook. Driven by roles that leverage my</br>
+                        strengths in the engineering domain for an<br> experience that turns out to be mutually rewarding.</br> A
+                        solution-oriented individual with a keen eye<br> for detail and perfection. Frequently praised for</br> being
+                        diligent and responsible by my peers</p>
+                    
+                </div>  
+            
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/userr.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Education</h1>
+                    <p1 class="sun">1.  B.Tech       CSE
+                        <br>Vellore Institute of Technology, Vellore</br>
+                        09/2021 - 07/2025
+                    </p1>
+                    <p2 class="sun"><br>2.  Grade XII        (ISC)</br>
+                        Sacred Heart Convent School
+                        <br> 04/2019 - 03/2021</br>
+                    </p2>
+                    <p3 class="sun">3. Grade X        (ICSE)
+                            <br>Sacred Heart Convent School</br>
+                            01/2007 - 03/2019
+                        </p3>
+                         
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="container">
+            <h1 class = "sub-title">My Skills</h1>
+            <div class="skill-list">
+                <div>Java</div>
+                <div>C</div>
+                <div>C++</div>
+                <div>R</div>
+                <div>Matlab</div>
+                <div>MySQL</div>
+                <div>React.js</div>
+                <div>Javascript</div>
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>Python</div>
+                <div>Statistics</div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+               <div class="project">
+                <div class="layer">
+                    <h3>AI BASED SOLUTIONS FOR NEURO DISORDERS</h3>
+                    <p>We are making a model that continuously plots the movement of the patient alongside a dataset of known parameters that determine if algorithms like these are accurate enough to be used.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Self Learning Project -Implemented the website using HTML and CSS-Learnt different properties of HTML and CSS -Planning to improve the website using JavaScript</p>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div id="experiences">
+        <div class="container">
+            <h1 class="sub-title">My Work Experience</h1>
+            <div class="experience-list">
+               <div class="experience">
+                <div class="layering">
+                   <h4>Intern Analyst
+                    <br>Tata Steel Limited</br></h4>
+                    <p>This project allowed me to apply and expand my skills in web development, from creating interactive user interfaces to managing databases and APIs.
+                       <br> I have developed a versatile foundation for building more advanced web applications and gained valuable insights into the development process.</br>
+                    </p>
+                </div>
+                    
+                </div>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © Shivya Jyoti </p>
+        </div>
+    </div>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+           sidemenu.style.right= "0";
+        }
+        function closemenu(){
+           sidemenu.style.right= "-200px";
+        }
+
+    </script>
+   
+    
+     
+    
+</body>
+</html>
